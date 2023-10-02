@@ -20,5 +20,5 @@ country= response.json()['results'][0]['location']['country']
 print(country)
 postcode=response.json()['results'][0]['location']['postcode']
 print(postcode)
-
+email= response.json()['results'][0]['email']
 
